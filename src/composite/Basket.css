@@ -1,0 +1,63 @@
+.Basket {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.BasketHeading{
+    border-bottom: 1px solid white;
+    align-self: stretch;
+    text-align: right;
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.BasketTable{
+    display: flex;
+}
+
+.BasketItems{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    white-space: nowrap;
+}
+
+.BasketItem{
+    display: flex;
+    align-items: center;
+}
+
+.BasketPrices{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 50px;
+}
+
+.BasketTotalPricePanel{
+    padding-top: 8px;
+    margin-top:2px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.BasketTotalPriceLabel{
+    text-align: left;
+    margin-right: 50px;
+}
+
+.BasketTotalPriceAmount{
+}
+
+.OfferScored{
+    margin-right: 8px;
+    padding:3px;
+    font-size: 10px;
+}

@@ -1,0 +1,59 @@
+.FruitsItem{
+    display:flex;
+    flex-direction:column;
+    transition: transform 1170ms;
+    user-select: none;
+    cursor: pointer;
+}
+
+.FruitsItem:hover{
+    transform:scale(1.05);
+    transition: transform 730ms;
+}
+
+.FruitsItemImage{
+    width:200px;
+    height:200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 50px hsla(0,0%,0%, 0.15), 0 0 50px hsla(0,0%,0%, 0.15);
+    margin:10px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    position:relative;
+}
+
+.FruitsItemButton {
+    width:38px;
+    height:38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 400ms;
+}
+
+.FruitsItemButton:hover{
+    background:hsla(200, 80%, 70%, 0.9);
+    transition: background 400ms;
+}
+
+.OfferLayout{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    pointer-events: none;
+}
+
+.OfferButton{
+    padding:4px;
+    font-size: 14px;
+}
